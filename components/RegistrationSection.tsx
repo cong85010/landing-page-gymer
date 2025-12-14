@@ -116,17 +116,17 @@ export default function RegistrationSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-16">
+          <div className="text-center mb-12 sm:mb-16">
             <div className="inline-block px-4 py-2 bg-orange-500/10 border border-orange-500/30 rounded-full text-orange-400 text-sm font-semibold tracking-wide mb-6">
               BẮT ĐẦU NGAY HÔM NAY
             </div>
-            <h2 className="text-display text-5xl sm:text-6xl md:text-7xl mb-6">
+            <h2 className="text-display text-3xl sm:text-5xl md:text-6xl lg:text-7xl mb-4 sm:mb-6 px-4">
               ĐĂNG KÝ{" "}
               <span className="bg-gradient-fire bg-clip-text text-white">
                 TƯ VẤN MIỄN PHÍ
               </span>
             </h2>
-            <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+            <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto px-4">
               Nhận tư vấn 1-1 miễn phí về lộ trình tập luyện phù hợp với bạn.
               Không ràng buộc, không phí ẩn.
             </p>

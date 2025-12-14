@@ -26,7 +26,7 @@ export default function HeroSection() {
             transition={{ duration: 0.6 }}
             className="inline-block mb-6"
           >
-            <span className="px-4 py-2 bg-orange-500/10 border border-orange-500/30 rounded-full text-orange-400 text-sm font-semibold tracking-wide">
+            <span className="px-4 py-2 bg-orange-500/10 border border-orange-500/30 rounded-full text-orange-400 text-xs md:text-sm font-semibold tracking-wide">
               ✦ HUẤN LUYỆN VIÊN CÁ NHÂN CHUYÊN NGHIỆP
             </span>
           </motion.div>
@@ -36,7 +36,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="text-display text-5xl sm:text-7xl md:text-8xl lg:text-9xl mb-6"
+            className="text-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl mb-6"
           >
             <span className="block">RÈN LUYỆN</span>
             <span className="block bg-gradient-fire bg-clip-text text-white">
@@ -50,7 +50,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto font-light leading-relaxed"
+            className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-8 sm:mb-12 max-w-3xl mx-auto font-light leading-relaxed px-4"
           >
             Huấn luyện viên cá nhân 1-1 giúp bạn <span className="text-orange-400 font-semibold">biến đổi cơ thể</span>,
             {" "}<span className="text-orange-400 font-semibold">xây dựng sức mạnh</span>, và{" "}
@@ -64,11 +64,11 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+            className="flex flex-col sm:flex-row gap-4 justify-center items-stretch sm:items-center px-4 w-full max-w-2xl mx-auto"
           >
             <a
               href="#register"
-              className="group relative px-8 py-5 bg-gradient-fire text-white font-bold text-lg rounded-none overflow-hidden glow-orange-hover transition-all duration-300 hover:scale-105 min-w-[280px] block"
+              className="group relative px-6 sm:px-8 py-4 sm:py-5 bg-gradient-fire text-white font-bold text-base sm:text-lg rounded-none overflow-hidden glow-orange-hover transition-all duration-300 hover:scale-105 flex-1 sm:flex-initial sm:min-w-[280px]"
               onClick={(e) => {
                 e.preventDefault();
                 document.getElementById('register')?.scrollIntoView({ behavior: 'smooth' });
@@ -83,7 +83,7 @@ export default function HeroSection() {
 
             <a
               href="#success-stories"
-              className="group px-8 py-5 border-2 border-orange-500 text-orange-400 font-bold text-lg rounded-none hover:bg-orange-500 hover:text-white transition-all duration-300 min-w-[280px] block"
+              className="group px-6 sm:px-8 py-4 sm:py-5 border-2 border-orange-500 text-orange-400 font-bold text-base sm:text-lg rounded-none hover:bg-orange-500 hover:text-white transition-all duration-300 flex-1 sm:flex-initial sm:min-w-[280px]"
               onClick={(e) => {
                 e.preventDefault();
                 document.getElementById('success-stories')?.scrollIntoView({ behavior: 'smooth' });
@@ -91,7 +91,8 @@ export default function HeroSection() {
             >
               <span className="flex items-center justify-center gap-2">
                 <Play className="w-5 h-5" />
-                XEM THÀNH CÔNG CỦA HỌC VIÊN
+                <span className="hidden xs:inline">XEM THÀNH CÔNG CỦA HỌC VIÊN</span>
+                <span className="inline xs:hidden">HỌC VIÊN THÀNH CÔNG</span>
               </span>
             </a>
           </motion.div>
@@ -101,7 +102,7 @@ export default function HeroSection() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.7 }}
-            className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-3xl mx-auto"
+            className="mt-12 sm:mt-16 md:mt-20 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 max-w-3xl mx-auto px-4"
           >
             {[
               { number: "500+", label: "Học viên đã biến đổi" },

@@ -27,15 +27,15 @@ export default function ProblemDesireSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-6xl mx-auto">
           {/* Section title */}
-          <div className="text-center mb-16">
-            <h2 className="text-display text-5xl sm:text-6xl md:text-7xl mb-4">
+          <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-display text-3xl sm:text-5xl md:text-6xl lg:text-7xl mb-4 sm:mb-6 px-4">
               BẠN CÓ ĐANG GẶP{" "}
               <span className="bg-gradient-fire bg-clip-text text-white">
                 NHỮNG VẤN ĐỀ NÀY?
               </span>
             </h2>
-            <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              Chúng tôi hiểu rõ những khó khăn bạn đang đối mặt. Và chúng tôi có giải pháp.
+            <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto px-4">
+              Tôi hiểu rõ những khó khăn bạn đang đối mặt. Và tôi có giải pháp.
             </p>
           </div>
 

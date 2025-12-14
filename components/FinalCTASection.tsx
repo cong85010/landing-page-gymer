@@ -46,7 +46,7 @@ export default function FinalCTASection() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-display text-6xl sm:text-7xl md:text-8xl lg:text-9xl mb-8"
+              className="text-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl mb-8 px-4"
             >
               <span className="block text-white">ĐỪNG CHỜ ĐỢI</span>
               <span className="block bg-gradient-fire bg-clip-text text-white">
