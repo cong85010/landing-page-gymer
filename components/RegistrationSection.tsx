@@ -297,13 +297,17 @@ export default function RegistrationSection() {
               Tham gia cùng <span className="text-orange-400 font-bold">500+ học viên</span> đã thay đổi cuộc sống
             </p>
             <div className="flex justify-center items-center gap-4 flex-wrap">
-              {[1, 2, 3, 4, 5].map((_, index) => (
-                <div
-                  key={index}
-                  className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-red-600 border-2 border-zinc-900"
-                  style={{ marginLeft: index > 0 ? "-12px" : "0" }}
-                />
-              ))}
+              <div className="flex">
+                {["M", "H", "A", "L", "T"].map((initial, index) => (
+                  <div
+                    key={index}
+                    className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-red-600 border-2 border-zinc-900 flex items-center justify-center text-white font-bold text-sm"
+                    style={{ marginLeft: index > 0 ? "-12px" : "0" }}
+                  >
+                    {initial}
+                  </div>
+                ))}
+              </div>
               <span className="text-gray-400 ml-2">và nhiều người khác...</span>
             </div>
           </div>
