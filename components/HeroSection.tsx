@@ -68,7 +68,7 @@ export default function HeroSection() {
           >
             <a
               href="#register"
-              className="group relative px-6 sm:px-8 py-4 sm:py-5 bg-gradient-fire text-white font-bold text-base sm:text-lg rounded-none overflow-hidden glow-orange-hover transition-all duration-300 hover:scale-105 flex-1 sm:flex-initial sm:min-w-[280px]"
+              className="group relative px-6  py-4 sm:py-5 bg-gradient-fire text-white font-bold text-base sm:text-lg rounded-none overflow-hidden glow-orange-hover transition-all duration-300 hover:scale-105 flex-1 sm:flex-initial sm:min-w-[280px]"
               onClick={(e) => {
                 e.preventDefault();
                 document.getElementById('register')?.scrollIntoView({ behavior: 'smooth' });
@@ -83,7 +83,7 @@ export default function HeroSection() {
 
             <a
               href="#success-stories"
-              className="group px-6 sm:px-8 py-4 sm:py-5 border-2 border-orange-500 text-orange-400 font-bold text-base sm:text-lg rounded-none hover:bg-orange-500 hover:text-white transition-all duration-300 flex-1 sm:flex-initial sm:min-w-[280px]"
+              className="group px-6  py-4 sm:py-5 border-2 border-orange-500 text-orange-400 font-bold text-base sm:text-lg rounded-none hover:bg-orange-500 hover:text-white transition-all duration-300 flex-1 sm:flex-initial sm:min-w-[280px]"
               onClick={(e) => {
                 e.preventDefault();
                 document.getElementById('success-stories')?.scrollIntoView({ behavior: 'smooth' });
